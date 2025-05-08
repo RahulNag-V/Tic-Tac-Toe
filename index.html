@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Tic-tac-toe</title>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'><link rel="stylesheet" href="./styles.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1 id="page-title">Tic-tac-toe</h1><div id="board">
+  <div id="square-00" class="square"></div>
+  <div id="square-01" class="square"></div>
+  <div id="square-02" class="square"></div>
+  <div id="square-10" class="square"></div>
+  <div id="square-11" class="square"></div>
+  <div id="square-12" class="square"></div>
+  <div id="square-20" class="square"></div>
+  <div id="square-21" class="square"></div>
+  <div id="square-22" class="square"></div>
+</div><br>
+<div class="score">
+<i class="score-icon fa fa-user"></i>
+  <strong><p id="score-opponent" class="score-text">0</p></strong>
+</div>
+<div id="settings-button">Settings</div>
+<div class="score">
+<i class="score-icon fa fa-laptop"></i>
+  <strong><p id="score-mine" class="score-text">0</p></strong>
+</div>
+<div id="filter">
+</div>
+<div id="settings">
+  <h1 id="settings-title">Settings</h1>
+  <div class="settings-section">
+    <h3 class="section-header">Player</h3>
+    <div id="cross" class="select-div"><i class="fa fa-times"></i><p class="description">Always starts</p></div>
+    <div id="circle" class="select-div"><i class="fa fa-circle-o"></i><p class="description">Plays last</p></div>
+    <div id="alternate" class="select-div"><i class="fa fa-refresh"></i><p class="description">Alternate</p></div>
+  </div>
+  <div class="settings-section">
+    <h3 class="section-header">AI level</h3>
+    <div id="easy" class="select-div"><i class="fa fa-star"></i><p class="description">Randomton the Stupid</p></div>
+    <div id="medium" class="select-div"><i class="fa fa-star"></i><i class="fa fa-star"></i><p class="description">Lookahead the Wise</p></div>
+    <div id="hard" class="select-div"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><p class="description">Minimax the Invincible</p></div>
+  </div>
+  <div id="start"><strong>Start!</strong></div>
+</div>
+<!-- partial -->
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
