@@ -15,7 +15,7 @@ A fun and interactive web-based Tic-Tac-Toe game built using **HTML**, **CSS**, 
 
 ## 📸 Screenshot
 
-![Game Screenshot](screenshot.png) <!-- Replace with actual path if available -->
+![Game Screenshot](Screenshot 2025-05-08 215030.png) <!-- Replace with actual path if available -->
 
 ---
 
